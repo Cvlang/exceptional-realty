@@ -11,32 +11,51 @@
 		<title>Exceptional Realty Group - Luxury Homes - About</title>
 	</head>
 	<body>
-		<!-- The body is the entire viewable area of the web page. For example we can see text, links, images, and media. -->
+		<header>
 
-		<h1>Exceptional</h1>
-		<h2>Realty Group</h2>
-
-		<img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+			<h1>Exceptional</h1>
+			<h2>Realty Group</h2>
 
 		<!-- links -->
-		<a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+
+		<nav>
+			<a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
 		
+		</nav>
+
+		</header>
 		<!--
 		foldername/ = go inside the folder
 		filename = use a file in the current directory
 		../ = leave the current folder and go to the parent folder
 		-->
+		
+		<section id="featured-property">
+			<figure>
+				<img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+				<figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
+			</figure>
 
-		<p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Ducimus ipsum ipsam officiis labore modi reiciendis dolores. Explicabo dolor eveniet aut nemo, porro ea rem ipsa illo iste eum. Unde, harum!</p>
+			<p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Ducimus ipsum ipsam officiis labore modi reiciendis dolores. Explicabo dolor eveniet aut nemo, porro ea rem ipsa illo iste eum. Unde, harum!</p>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos natus neque consectetur repellendus assumenda, illum nesciunt totam sequi animi inventore labore provident earum, repudiandae aspernatur voluptatibus commodi, ducimus! Quibusdam, blanditiis.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos natus neque consectetur repellendus assumenda, illum nesciunt totam sequi animi inventore labore provident earum, repudiandae aspernatur voluptatibus commodi, ducimus! Quibusdam, blanditiis.</p>
+		</section>
 
-		<!-- promo video -->
+		<section id="promotional">
+			<figure>
+			<!-- promo video -->
+			<video controls>
+				<source src="videos/real-estate.mp4" type="video/mp4">
+				<source src="videos/real-estate.ogv" type="video/ogg">
+				Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgrage your browser</a>
+			</video>
+			<figcaption>Exceptional Realty Group Promotional Video - Source: archive.org
+			</figure>
+		</section>
 
-		<video controls>
-			<source src="videos/real-estate.mp4" type="video/mp4">
-			<source src="videos/real-estate.ogv" type="video/ogg">
-			Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgrage your browser</a>
+		<footer>
+			&copy; 2014 Exceptional Realty. All Rights Reserved.
 
+		</footer>
 	</body>
 </html>
